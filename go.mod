@@ -1,3 +1,3 @@
-module github.com/laiambryant/ygoprodeck
+module github.com/laiambryant/sdkyGOprodeck
 
 go 1.23.12

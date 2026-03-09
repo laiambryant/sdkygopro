@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/laiambryant/ygoprodeck/enums"
+	"github.com/laiambryant/sdkyGOprodeck/enums"
 )
 
 func TestBuildEmpty(t *testing.T) {

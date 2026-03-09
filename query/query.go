@@ -5,7 +5,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/laiambryant/ygoprodeck/enums"
+	"github.com/laiambryant/sdkyGOprodeck/enums"
 )
 
 type Query struct {

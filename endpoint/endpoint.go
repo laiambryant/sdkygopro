@@ -4,7 +4,7 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/laiambryant/ygoprodeck/client"
+	"github.com/laiambryant/sdkyGOprodeck/client"
 )
 
 type Endpoint[T any] struct {

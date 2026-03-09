@@ -4,19 +4,19 @@ import (
 	"context"
 	"net/url"
 
-	"github.com/laiambryant/ygoprodeck/client"
-	"github.com/laiambryant/ygoprodeck/endpoint"
-	"github.com/laiambryant/ygoprodeck/models"
-	"github.com/laiambryant/ygoprodeck/query"
+	"github.com/laiambryant/sdkyGOprodeck/client"
+	"github.com/laiambryant/sdkyGOprodeck/endpoint"
+	"github.com/laiambryant/sdkyGOprodeck/models"
+	"github.com/laiambryant/sdkyGOprodeck/query"
 )
 
 type YGOProDeck struct {
-	Client   *client.Client
-	cards    *endpoint.Endpoint[models.CardResponse]
-	sets     *endpoint.Endpoint[[]models.CardSet]
-	setInfo  *endpoint.Endpoint[[]models.CardSetInfo]
-	archs    *endpoint.Endpoint[[]models.Archetype]
-	dbVer    *endpoint.Endpoint[[]models.DBVersion]
+	Client  *client.Client
+	cards   *endpoint.Endpoint[models.CardResponse]
+	sets    *endpoint.Endpoint[[]models.CardSet]
+	setInfo *endpoint.Endpoint[[]models.CardSetInfo]
+	archs   *endpoint.Endpoint[[]models.Archetype]
+	dbVer   *endpoint.Endpoint[[]models.DBVersion]
 }
 
 func New(opts ...client.Option) *YGOProDeck {
