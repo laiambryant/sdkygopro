@@ -7,7 +7,7 @@ A Go SDK for the YGOProDeck API.
 [![GitHub license](https://img.shields.io/github/license/laiambryant/sdkygopro.svg)](https://github.com/laiambryant/sdkygopro/blob/main/LICENSE)
 [![GitHub issues](https://img.shields.io/github/issues/laiambryant/sdkygopro.svg)](https://github.com/laiambryant/sdkygopro/issues)
 [![GitHub stars](https://img.shields.io/github/stars/laiambryant/sdkygopro.svg)](https://github.com/laiambryant/sdkygopro/stargazers)
-[![Coverage Status](https://coveralls.io/repos/github/laiambryant/sdkygopro/badge.svg)](https://coveralls.io/github/laiambryant/sdkygopro)
+[![Coverage Status](https://coveralls.io/repos/github/laiambryant/sdkyGOpro/badge.svg?branch=main)](https://coveralls.io/github/laiambryant/sdkyGOpro?branch=main)
 
 ## Installation
 
